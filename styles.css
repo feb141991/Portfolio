@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+    color: #fff;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 0 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+section {
+    padding: 4rem 2rem;
+    margin: 4rem auto 0 auto;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+#hero {
+    text-align: center;
+    padding-top: 100px;
+}
+
+#skills .skill-bars {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-bar {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    overflow: hidden;
+}
+
+.skill-title {
+    padding: 0.5rem;
+}
+
+.skill-level {
+    background: #5151E5;
+    height: 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
